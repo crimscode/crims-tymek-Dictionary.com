@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+
+*{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    /* border: 1px solid red; */
+}
+body{
+    background-image: linear-gradient(0deg, #e6dbdb, #948d8d);
+    height: 120vh;
+}
+.container{
+    width: 100%;
+    text-align: center;
+}
+.dictionary-welcome{
+    text-align: center;
+}
+.dictionary-heading{
+    text-align: center;
+    font-size: 70px;
+    text-shadow:2px 0px 5px rgb(69, 69, 212);
+    margin: 0px;
+}
+.dictionary-heading-span{
+    font-size: 100px;
+}
+.dictionary-definitions-header{
+    font-size: 40px;
+    text-align: center;
+    margin: 100px;
+    text-decoration: underline;
+}
+.definitions{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    margin: 5px;
+    border: 8px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: 600px;
+    background-color: rgb(202, 197, 197);
+}
+.dictionary-definitions{
+    margin: 0 auto;
+}
+.definitions-header{
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 25px;
+    height: 30px;
+}
+.hello-guys{
+    font-size: 18px;
+}
+.definitions-rule{
+    border-color: black;
+    width: 80%;
+    margin: 25px auto;
+}
+.definitions-info{
+    font-size: 30px;
+}
